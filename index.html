@@ -10,36 +10,47 @@
 
 	<!-- Bootstrap styly -->
 	<!-- Toto je styl stažený ze stránek Bootstrapu a přidaný do složky našeho projektu, ale mohli bychom místo toho mít i styl napojený přímo z CDN v internetu -->
-	<!--
+	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	-->
+	
 
 	<!-- naše CSS styly -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+	
 
+	
 	<!-- Hlavicka -->
-	<h1>Kadeřnictví Scissors <small>(není opravdové)</small></h1>
-
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		
+		<div class="col-6">
+			<h1>Kadeřnictví Scissors <small>(není opravdové)</small></h1>
+		</div>
 
 
 	<!-- Hlavni menu -->
-	<ul>
-		<li><a href="#kadernice">Kadeřnice</a></li>
-		<li><a href="#sluzby">Služby</a></li>
-		<li><a href="#reference">Řekli o nás</a></li>
-		<li><a href="#fotogalerie">Fotogalerie</a></li>
-		<li><a href="#kontakt">Kontakt</a></li>
-	</ul>
-
+	<div class="col-6">
+			<ul class="nav navbar-nav"> 
+				<li class="nav-item"><a class="nav-link active" aria-current="page" href="#kadernice">Kadeřnice</a></li>
+				<li class="nav-item"><a class="nav-link active" aria-current="page" href="#sluzby">Služby</a></li>
+				<li class="nav-item"><a class="nav-link active" aria-current="page" href="#reference">Řekli o nás</a></li>
+				<li class="nav-item"><a class="nav-link active" aria-current="page" href="#fotogalerie">Fotogalerie</a></li>
+				<li class="nav-item"><a class="nav-link active" aria-current="page" href="#kontakt">Kontakt</a></li>
+			</ul>
+	</nav>
+	</div>
+		
+	</nav>
+	
 
 
 	<!-- Obrazek -->
-	<img src="images/carousel1.jpg" alt="Kadeřnictví">
-
-
+	<div class="carousel-fluid">
+	<img src="images/carousel1.jpg" alt="Kadeřnictví" class="carousel-fluid">
+	</div>
 
 	<!-- Akce, novinky -->
 	<h2>Akce -30&nbsp;%</h2>
@@ -238,9 +249,9 @@
 
 	<!-- Volitelný JavaScript (nutný pro aktivní komponenty) -->
 	<!-- Toto je JavaScript stažený ze stránek Bootstrapu a přidaný do složky našeho projektu, ale mohli bychom místo toho mít i skript napojený přímo z CDN v internetu -->
-	<!--
+	<
 	<script src="js/bootstrap.bundle.min.js"></script>
-	-->
+</div>
 
 </body>
 </html>
